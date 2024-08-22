@@ -1,5 +1,5 @@
 import self from "../img/self.png"
-import mock3 from "../img/mock4.png"
+import mock3 from "../img/mock3.png"
 import mock4 from "../img/mock4.png"
 import mock5 from "../img/mock5.png"
 
@@ -132,7 +132,7 @@ Prêt à coder avec moi ?`
         },
         {
             title: "Projet 3:Portfolio",
-            live: "https://projet-fin-b-atch-front.vercel.app/",
+            live: "https://portfolio-rho-one-21.vercel.app//",
             source: "https://github.com/L1nk249/Portfolio",
             image: mock3
             
