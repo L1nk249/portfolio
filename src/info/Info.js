@@ -1,7 +1,9 @@
 import self from "../img/self.png"
+import mock3 from "../img/mock4.png"
 import mock4 from "../img/mock4.png"
 import mock5 from "../img/mock5.png"
-import mock3 from"../img/mock3.png"
+
+
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
 
@@ -116,24 +118,24 @@ Prêt à coder avec moi ?`
     portfolio: [ // This is where your portfolio projects will be detailed
        
         {
-            title: "Projet 1",
+            title: "Projet 1: Mymovies",
             live: "https://frontend-movies-eight.vercel.app/",
             source: "https://github.com/L1nk249/frontendMovies",
             image: mock4
         },
         {
-            title: "Projet 2",
+            title: "Projet 2 IZI site de sorties ",
             live: "https://projet-fin-b-atch-front.vercel.app/",
             source: "https://github.com/L1nk249/ProjetFinBAtchFront",
             source:"https://github.com/L1nk249/ProjetFIndeBAsh",
             image: mock5
         },
         {
-            title: "Projet 3",
+            title: "Projet 3:Portfolio",
             live: "https://projet-fin-b-atch-front.vercel.app/",
-            source: "https://github.com/L1nk249/ProjetFinBAtchFront",
-            source:"https://github.com/L1nk249/ProjetFIndeBAsh",
+            source: "https://github.com/L1nk249/Portfolio",
             image: mock3
+            
         }
 
 
