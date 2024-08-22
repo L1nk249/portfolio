@@ -39,7 +39,7 @@ export const info = {
         },
         {
             emoji: '🌎',
-            text: 'Dans le sud de la France'
+            text: 'Dans le sud est de la France'
         },
         {
             emoji: "💼",
