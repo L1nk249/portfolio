@@ -30,14 +30,14 @@ export const info = {
     firstName: "Cédric",
     lastName: "LEVY",
     initials: "CL", // the example uses first and last, but feel free to use three or more if you like.
-    position: "Full Stack Developpeur Junior ",
+    position: " Developpeur Junior Full Stack",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
-            emoji: '☕',
-            text:  'carburant: sport '
+            emoji: '🏃‍♂️',
+            text:  'Carburant: sport '
         },
         {
             emoji: '🌎',
@@ -45,27 +45,22 @@ export const info = {
         },
         {
             emoji: "💼",
-            text: "A la recherche d'un emploi"
+            text: "Disponible dès maintenant "
         },
         {
             emoji: "📧",
-            text: "levycedric26@gmail.com"
+            text: <a href="mailto:levycedric26@gmail.com">levycedric26@gmail.com</a> 
         }
     ],
     socials: [
        
         {
-            link: "https://instagram.com",
-            icon: 'fa fa-instagram',
-            label: 'instagram'
-        },
-        {
-            link: "https://github.com",
+            link: "https://github.com/L1nk249",
             icon: "fa fa-github",
             label: 'github'
         },
         {
-            link: "https://linkedin.com",
+            link: "https://linkedin.com/in/cédricLEVY",
             icon: "fa fa-linkedin",
             label: 'linkedin'
         },
@@ -74,30 +69,35 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Bonjour, Je m'appelle Cédric, Après 12 ans en tant que manager en grande distribution, j'ai fait une reconversion à La Capsule en tant que développeur FULL STACK Javascript/ React/React Native",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python', 'adobe illustrator']
+            Compétences: ['Javascript', 'React', 'Git', 'Github', 'Html5', 'Css3', 'Figma'],
+            exposedTo: ['Nodejs', 'Express', 'MongoDB','Mongoose']
         }
     ,
     hobbies: [
         {
-            label: 'reading',
+            label: 'Lecture',
             emoji: '📖'
         },
         {
-            label: 'theater',
-            emoji: '🎭'
+            label: 'Cryptomonnaies',
+            emoji: '₿'
         },
         {
-            label: 'movies',
-            emoji: '🎥'
+            label: 'Cinéma',
+            emoji: '🕷️'
         },
         {
-            label: 'cooking',
-            emoji: '🌶'
+            label: 'Voyages',
+            emoji: '🎒'
+        },
+        {
+            label: "Pizzza à l'ananas (personne n'est parfait !)" ,
+            emoji: '🍕🍍'
         }
+
 // Same as above, change the emojis to match / relate to your hobbies or interests.
 // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
