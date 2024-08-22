@@ -14,7 +14,7 @@ const links = [
         active: 'home'
     },
     {
-        name: 'En savoir plus ',
+        name: 'En',
         to: 'about',
         active: 'about'
     },
@@ -39,7 +39,7 @@ const scrollWidthOffset = (el) => {
     window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
 }
 
-//
+
 export default function Navbar({ darkMode, handleClick, active, setActive }) {
 
     return (

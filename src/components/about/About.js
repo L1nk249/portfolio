@@ -15,7 +15,7 @@ export default function About({ innerRef }) {
             {firstName}
             {info.lastName.toLowerCase()} $
           </span>{" "}
-          cat En savoir plus: {firstName}{" "}
+          cat En savoir plus
         </p>
         <p>
           <span style={{ color: info.baseColor }}>

@@ -1,10 +1,7 @@
 import self from "../img/self.png"
-import mock1 from "../img/mock1.png"
-import mock2 from "../img/mock2.png"
-import mock3 from "../img/mock3.png"
 import mock4 from "../img/mock4.png"
 import mock5 from "../img/mock5.png"
-
+import mock3 from"../img/mock3.png"
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
 
@@ -69,7 +66,18 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Bonjour, Je m'appelle Cédric, après 12 ans en tant que manager en grande distribution, j'ai choisi de faire une reconversion à La Capsule en tant que développeur FULL STACK Javascript/ React/React Native. Je suis morivé et déterminé ",
+    bio: `Bonjour,
+
+Je suis Cédric, un ancien manager de grande distribution devenu développeur junior, parce qu'il n'y a pas d'âge pour apprendre! 
+Après 12 ans à gérer des équipes, j'ai décidé de troquer mes rayons contre des lignes de code et des projets ambitieux, en me lançant dans une formation de développeur FULL STACK à La Capsule.
+Cette reconversion est le fruit d'une passion grandissante pour la tech et d'un goût prononcé pour les défis.
+ Maintenant, au lieu de jongler avec des produits en rayon, je jongle avec JavaScript, React et React Native. 
+ 
+Je suis déterminé, curieux, et prêt à plonger dans de nouveaux projets, avec une touche d'humour et une bonne dose d'enthousiasme.
+
+Prêt à coder avec moi ?`
+
+ ,
     skills:
         {
             compétences: ['Javascript', 'React', 'Git/ Github', 'Html5', 'Css3', 'Figma'],
@@ -106,35 +114,28 @@ export const info = {
 // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
+       
         {
-            title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: mock1
-        },
-        {
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock2
-        },
-        {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock3
-        },
-        {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Projet 1",
+            live: "https://frontend-movies-eight.vercel.app/",
+            source: "https://github.com/L1nk249/frontendMovies",
             image: mock4
         },
         {
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Projet 2",
+            live: "https://projet-fin-b-atch-front.vercel.app/",
+            source: "https://github.com/L1nk249/ProjetFinBAtchFront",
+            source:"https://github.com/L1nk249/ProjetFIndeBAsh",
             image: mock5
+        },
+        {
+            title: "Projet 3",
+            live: "https://projet-fin-b-atch-front.vercel.app/",
+            source: "https://github.com/L1nk249/ProjetFinBAtchFront",
+            source:"https://github.com/L1nk249/ProjetFIndeBAsh",
+            image: mock3
         }
+
+
     ]
 }
