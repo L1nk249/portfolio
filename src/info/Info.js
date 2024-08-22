@@ -72,8 +72,6 @@ export const info = {
 Je suis Cédric, un ancien manager de grande distribution devenu développeur junior, parce qu'il n'y a pas d'âge pour apprendre! 
 Après 12 ans à gérer des équipes, j'ai décidé de troquer mes rayons contre des lignes de code et des projets ambitieux, en me lançant dans une formation de développeur FULL STACK à La Capsule.
 Cette reconversion est le fruit d'une passion grandissante pour la tech et d'un goût prononcé pour les défis.
- Maintenant, au lieu de jongler avec des produits en rayon, je jongle avec JavaScript, React et React Native. 
- 
 Je suis déterminé, curieux, et prêt à plonger dans de nouveaux projets, avec une touche d'humour et une bonne dose d'enthousiasme.
 
 Prêt à coder avec moi ?`
@@ -118,20 +116,20 @@ Prêt à coder avec moi ?`
        
         {
             title: "Projet 1: Mymovies",
-            live: "https://frontend-movies-eight.vercel.app/",
+            live: "https://frontend-movies-eight.vercel.app",
             source: "https://github.com/L1nk249/frontendMovies",
             video: VideoImovie
         },
         {
             title: "Projet 2 IZI site de sorties ",
-            live: "https://projet-fin-b-atch-front.vercel.app/",
+            live: "https://projet-fin-b-atch-front.vercel.app",
             source: "https://github.com/L1nk249/ProjetFinBAtchFront",
             source:"https://github.com/L1nk249/ProjetFIndeBAsh",
             video:Videoizi
         },
         {
             title: "Projet 3:Portfolio",
-            live: "https://portfolio-rho-one-21.vercel.app//",
+            live: "https://portfolio-rho-one-21.vercel.app",
             source: "https://github.com/L1nk249/Portfolio",
             video:VideoPortfolio
             

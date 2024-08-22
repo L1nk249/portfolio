@@ -49,7 +49,7 @@ export default function BaseLayout() {
             <Grid item>
                <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'}
                   py={'1.5rem'} sx={{ opacity: 0.7 }} width={'100%'}>
-                  <p>LEVY Cédric</p>
+                  <p> Cédric LEVY</p>
                   <p>&copy; 2024</p>
                </Box>
             </Grid>
