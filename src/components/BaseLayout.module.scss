@@ -24,7 +24,7 @@ footer {
 }
 
 .light {
-  background-color: $white;
+  background: linear-gradient(to left, rgb(171, 237, 253), rgb(151, 63, 102));
   color: $dark;
   transition: all 400ms;
 }

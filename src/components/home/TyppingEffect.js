@@ -17,7 +17,7 @@ function TypingEffect({ text }) {
 
     return  <span 
     style={{ 
-        background: 'linear-gradient(to right, rgb(97, 58, 242), rgb(161, 211, 161))',
+        background: 'linear-gradient(to left, rgb(2, 26, 100), rgb(66, 152, 136))',
         WebkitBackgroundClip: 'text',
         WebkitTextFillColor: 'transparent'
     }}

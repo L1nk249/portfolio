@@ -1,9 +1,8 @@
 import self from "../img/self.png"
-import mock3 from "../img/mock3.png"
-import mock4 from "../img/mock4.png"
-import mock5 from "../img/mock5.png"
 
-
+import VideoImovie from "../videos/VideoImovie.mp4" 
+import Videoizi from "../videos/Videoizi.mp4"
+import VideoPortfolio from "../videos/VideoPortfolio.mp4"
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
 
@@ -121,23 +120,22 @@ Prêt à coder avec moi ?`
             title: "Projet 1: Mymovies",
             live: "https://frontend-movies-eight.vercel.app/",
             source: "https://github.com/L1nk249/frontendMovies",
-            image: mock4
+            video: VideoImovie
         },
         {
             title: "Projet 2 IZI site de sorties ",
             live: "https://projet-fin-b-atch-front.vercel.app/",
             source: "https://github.com/L1nk249/ProjetFinBAtchFront",
             source:"https://github.com/L1nk249/ProjetFIndeBAsh",
-            image: mock5
+            video:Videoizi
         },
         {
             title: "Projet 3:Portfolio",
             live: "https://portfolio-rho-one-21.vercel.app//",
             source: "https://github.com/L1nk249/Portfolio",
-            image: mock3
+            video:VideoPortfolio
             
-        }
-
-
+        },
+        
     ]
 }

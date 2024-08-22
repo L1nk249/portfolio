@@ -3,16 +3,29 @@ import IconLink from "./IconLink";
 import { Box } from "@mui/material";
 
 function PortfolioBlock(props) {
-  const { image, live, source, title } = props;
+  const { image,video, live, source, title } = props;
   return (
     <Box
       display={"flex"}
       flexDirection={"column"}
       justifyContent={"center"}
       alignItems={"center"}
+      mt={4}
     >
-      <Box component={"img"} src={image} alt={"mockup"} />
+
+
+{/* Condition pour afficher une vidéo ou une image */}
+{video ? (
+        <Box component={"video"} controls width={"80%"} height={"auto"}>
+          <source src={video} type="video/mp4" />
+          Your browser does not support the video tag.
+        </Box>
+      ) : (
+        <Box component={"img"} src={image} alt={"mockup"} />
+      )}
+
       <h1 style={{ fontSize: "2rem" }}>{title}</h1>
+
       <Box
         className={"portfolio"}
         display={"flex"}
