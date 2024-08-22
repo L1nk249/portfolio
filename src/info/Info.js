@@ -82,7 +82,7 @@ Prêt à coder avec moi ?`
  ,
     skills:
         {
-            compétences: ['Javascript', 'React', 'Git/ Github', 'Html5', 'Css3', 'Figma'],
+            compétences: ['Javascript', 'React/React Native', 'Git/ Github', 'Html5', 'Css3', 'Figma'],
             backend: ['Nodejs', 'Express', 'MongoDB','Mongoose']
         }
     ,
