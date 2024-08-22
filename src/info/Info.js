@@ -8,7 +8,7 @@ import mock5 from "../img/mock5.png"
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
 
-export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
+export let colors = ["rgb(97, 58, 242)", "rgb(161, 211, 161)"];
 /*
 I highly recommend using a gradient generator like https://gradientgenerator.paytonpierce.dev/ to generate a pair of colors that you like.
 These colors will be used to style your name on the homepage, the background of your picture, and some other accents throughout
@@ -69,11 +69,11 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Bonjour, Je m'appelle Cédric, Après 12 ans en tant que manager en grande distribution, j'ai fait une reconversion à La Capsule en tant que développeur FULL STACK Javascript/ React/React Native",
+    bio: "Bonjour, Je m'appelle Cédric, après 12 ans en tant que manager en grande distribution, j'ai choisi de faire une reconversion à La Capsule en tant que développeur FULL STACK Javascript/ React/React Native. Je suis morivé et déterminé ",
     skills:
         {
-            Compétences: ['Javascript', 'React', 'Git', 'Github', 'Html5', 'Css3', 'Figma'],
-            exposedTo: ['Nodejs', 'Express', 'MongoDB','Mongoose']
+            compétences: ['Javascript', 'React', 'Git/ Github', 'Html5', 'Css3', 'Figma'],
+            backend: ['Nodejs', 'Express', 'MongoDB','Mongoose']
         }
     ,
     hobbies: [
@@ -94,7 +94,11 @@ export const info = {
             emoji: '🎒'
         },
         {
-            label: "Pizzza à l'ananas (personne n'est parfait !)" ,
+            label: 'Animaux',
+            emoji: '🐕'
+        },
+        {
+            label: "Pizza à l'ananas (personne n'est parfait !)" ,
             emoji: '🍕🍍'
         }
 

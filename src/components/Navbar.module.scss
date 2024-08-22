@@ -27,7 +27,11 @@ li {
     transition: $transition;
   }
 }
+.link {
+  text-transform: capitalize; /* Met la première lettre en majuscule */
+  font-weight: bold; /* Rend le texte en gras */
 
-.link:hover {
-  color: unset;
+  &:hover {
+    color: unset;
+  }
 }
