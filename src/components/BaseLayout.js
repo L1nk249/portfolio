@@ -4,14 +4,18 @@ import Navbar from "./Navbar";
 import { useLocation } from "react-router-dom";
 import { Box, Grid } from "@mui/material";
 import MultiPageRoutes from './MultiPageRoutes';
-import { singlePage } from '../info/Info';
+import { singlePage } from '../info/Info';// crochet car import de module ce n'est pas un composant)
 import SinglePageRoutes from './SinglePageRoutes';
 import useScrollObserver from '../hooks/useScrollObserver';
 
 export default function BaseLayout() {
-   const location = useLocation()
+   const location = useLocation() // pour obtenir l'emplacment actuel de la route
 
-   const [active, setActive] = useState(location.pathname === '/' ? 'home' : location.pathname.slice(1, location.pathname.length));
+   const [active, setActive] = useState(location.pathname === '/' ? 'home' : location.pathname.slice(1, location.pathname.length));// si le chemin actuel est home, ok sinon ce sera portfolio ou about qui sera déclare active.
+//Cette logique est souvent utilisée pour gérer l'état actif de la navigation, en mettant à jour l'état active en fonction du chemin actuel de l'URL. Cela peut être utile pour la mise en surbrillance des éléments de menu ou pour d'autres fonctionnalités liées à la navigation dans l'application
+
+
+
    const refHome = useScrollObserver(setActive);
    const refAbout = useScrollObserver(setActive);
    const refPortfolio = useScrollObserver(setActive);
@@ -19,7 +23,7 @@ export default function BaseLayout() {
 
 
 
-   function handleToggleDarkMode() {
+   function handleToggleDarkMode() {  // fonction pour basculer en darkmode)
       let oppositeOfCurrentDarkMode = !darkMode
       console.log(oppositeOfCurrentDarkMode)
       localStorage.setItem('darkMode', `${oppositeOfCurrentDarkMode}`)
@@ -27,7 +31,7 @@ export default function BaseLayout() {
    }
 
    useEffect(() => {
-      let detectedDarkMode = JSON.parse(localStorage.getItem('darkMode'));
+      let detectedDarkMode = JSON.parse(localStorage.getItem('darkMode'));//Il lit la valeur du mode sombre depuis le localStorage et met à jour l'état darkMode. Si aucune valeur n'est trouvée, elle définit le mode sombre sur false.
 
       if (detectedDarkMode) {
          setDarkMode(detectedDarkMode)

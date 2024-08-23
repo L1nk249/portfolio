@@ -38,7 +38,12 @@ const scrollWidthOffset = (el) => {
     const yOffset = -80; 
     window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
 }
+/*La fonction scrollWidthOffset :
 
+Calcule la position verticale de l'élément el dans le document par rapport au haut de la fenêtre d'affichage, en tenant compte du défilement actuel de la page.
+Applique un décalage vertical (yOffset) pour ajuster la position finale de défilement. Ici, le décalage est de 80 pixels vers le haut.
+Fait défiler la page en douceur jusqu'à la position calculée, en utilisant window.scrollTo avec le paramètre behavior: 'smooth' pour une transition fluide.
+Cette fonction est utile pour créer une expérience utilisateur plus fluide et précise lorsque tu souhaites faire défiler la page vers un élément spécifique, tout en tenant compte de tout espace supplémentaire (comme une barre de navigation fixe) qui pourrait couvrir l'élément ciblé.*/
 
 export default function Navbar({ darkMode, handleClick, active, setActive }) {
 

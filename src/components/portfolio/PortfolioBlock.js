@@ -14,9 +14,8 @@ function PortfolioBlock(props) {
     >
 
 
-{/* Condition pour afficher une vidéo ou une image */}
 <div>
-            {video ? (
+            {video ? (                                   //! si tu as une vidéo affiche la, sinon  affiche une photo
                 <Box component="div" style={{ width: "80%", height: "auto" }}>
                     <video 
                         controls 
@@ -27,10 +26,10 @@ function PortfolioBlock(props) {
                         height="auto"
                     >
                         <source src={video} type="video/mp4" />
-                        Your browser does not support the video tag.
+                        Votre navigateur ne supporte pas la vidéo
                     </video>
         </Box>
-      ) : (
+      ) : ( //! ou affiche une photo
         <Box component={"img"} src={image} alt={"mockup"} />
       )}
 

@@ -15,3 +15,4 @@ export default function Toggler({darkMode, handleClick}) {
       </Box>
    )
 }
+//* fonction pour switcher entre darkMode : si darkmode au clic bascule en jour et inversement

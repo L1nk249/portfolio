@@ -20,7 +20,7 @@ h2 {
 
 
 .hand {
-  animation-name: wave;
+  animation-name: wave;  // animation wave avec keyframe
   animation-duration: 2.5s;
   animation-iteration-count: infinite;
   transform-origin: 70% 70%;
@@ -47,3 +47,5 @@ a:hover {
   60% { transform: rotate( 0.0deg) }
   100% { transform: rotate( 0.0deg) }
 }
+
+//! effet pour faire agiter la main

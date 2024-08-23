@@ -2,7 +2,7 @@ import React from 'react';
 import {Box} from "@mui/material";
 
 function EmojiBullet(props) {
-    const {emoji, text} = props;
+    const {emoji, text} = props;// destructuration pour éviter d'ecrire props.emoji etc
 
     return (
         <Box component={'li'} fontSize={'1rem'} lineHeight={1.5} style={{cursor: 'default'}}>
@@ -14,3 +14,4 @@ function EmojiBullet(props) {
 }
 
 export default EmojiBullet;
+// une fois que EmojiBullet reçoit ses props on peut réutiliser son composant pour afficher les valeurs ( sur home la ou le composant est importé)
