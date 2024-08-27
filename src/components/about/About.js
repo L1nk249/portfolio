@@ -7,12 +7,12 @@ import { info } from "../../info/Info";
 
 export default function About({ innerRef }) {
   const firstName = info.firstName.toLowerCase();
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);// état initialisé à taille d'écran mobile
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth < 768);
     };
-    window.addEventListener('resize', handleResize);
+    window.addEventListener('resize', handleResize); 
 
     // Cleanup on component unmount
     return () => {
@@ -35,7 +35,7 @@ export default function About({ innerRef }) {
           <span style={{ color: info.baseColor }}>
             En savoir plus: <span className={Style.green}>(main)</span> ${" "}
           </span>
-          {isMobile?info.biomobile :info.bio}
+          {isMobile?info.biomobile :info.bio} // switche les infos en fonction de la taille d'écran 
           
         </p>
       </>
