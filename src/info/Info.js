@@ -52,6 +52,7 @@ export const info = {
         },
        
     ],
+
     bio: `Bonjour,
 
 Je suis Cédric, un ancien manager de grande distribution devenu développeur junior, parce qu'il n'y a pas d'âge pour apprendre! 
@@ -61,6 +62,10 @@ Je suis déterminé, curieux, et prêt à plonger dans de nouveaux projets, avec
 
 Prêt à coder avec moi ?`
 
+ ,
+
+ biomobile:`Bonjour, Je suis Cédric, développeur junior fullstack Javascript.
+  Ravi de vous voir ici`
  ,
     skills:
         {
@@ -107,8 +112,7 @@ Prêt à coder avec moi ?`
         {
             title: "Projet 2 IZI site de sorties ",
             live: "https://projet-fin-b-atch-front.vercel.app",
-            source: "https://github.com/L1nk249/ProjetFinBAtchFront",
-            source:"https://github.com/L1nk249/ProjetFIndeBAsh",
+            source:"",
             video:Videoizi
         },
         {

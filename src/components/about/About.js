@@ -1,12 +1,26 @@
-import React from "react";
+import React, {useState,useEffect} from "react";
 import Style from "./About.module.scss";
 import Terminal from "./Terminal";
 import { Box } from "@mui/material";
 import { info } from "../../info/Info";
 
+
 export default function About({ innerRef }) {
   const firstName = info.firstName.toLowerCase();
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    window.addEventListener('resize', handleResize);
 
+    // Cleanup on component unmount
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  
   function aboutMeText() {
     return (
       <>
@@ -21,7 +35,8 @@ export default function About({ innerRef }) {
           <span style={{ color: info.baseColor }}>
             En savoir plus: <span className={Style.green}>(main)</span> ${" "}
           </span>
-          {info.bio}
+          {isMobile?info.biomobile :info.bio}
+          
         </p>
       </>
     );

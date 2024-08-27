@@ -22,16 +22,27 @@ function PortfolioBlock(props) {
   >
 
 <div>
-            {video ? (                                   //! si tu as une vidéo affiche la, sinon  affiche une photo.
-                <Box component="div" style={{ width: "80%", height: "auto" }}>
-                    <video 
-                        controls 
-                        autoPlay 
-                        muted 
-                        playsInline 
-                        width="100%" 
-                        height="auto"
-                    >
+        {video ? (
+          <Box
+            component="div"
+            sx={{
+              width: "80%",
+              height: "auto",
+              margin: "0 auto", // Centrage horizontal
+              '@media (max-width: 768px)': {
+                width: "100%", // Pleine largeur sur mobile
+              },
+            }}
+          >
+            <video
+              controls
+              autoPlay
+              muted
+              playsInline
+              width="100%" // S'assure que la vidéo prend toute la largeur disponible
+              height="auto"
+              style={{ display: "block", margin: "0 auto" }} // Centrer la vidéo dans son conteneur
+            >
                         <source src={video} type="video/mp4" />
                         Votre navigateur ne supporte pas la vidéo
                     </video>
@@ -40,7 +51,15 @@ function PortfolioBlock(props) {
         <Box component={"img"} src={image} alt={"mockup"} />
       )}
 
-      <h1 style={{ fontSize: "2rem" }}>{title}</h1>
+<h1
+              style={{
+                fontSize: "2rem",
+                textAlign: "center", // Centrer le texte sur tous les écrans
+                marginTop: "10px", // Ajoute un petit espace entre la vidéo et le titre
+              }}
+            >
+              {title}
+            </h1>
       </div>
       <Box
         className={"portfolio"}
