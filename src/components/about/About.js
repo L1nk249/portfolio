@@ -36,7 +36,7 @@ export default function About({ innerRef }) {
             En savoir plus: <span className={Style.green}>(main)</span> ${" "}
           </span>
           {isMobile?info.biomobile :info.bio} // switche les infos en fonction de la taille d'écran 
-          
+          //
         </p>
       </>
     );
