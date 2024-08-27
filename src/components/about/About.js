@@ -35,8 +35,8 @@ export default function About({ innerRef }) {
           <span style={{ color: info.baseColor }}>
             En savoir plus: <span className={Style.green}>(main)</span> ${" "}
           </span>
-          {isMobile?info.biomobile :info.bio} // switche les infos en fonction de la taille d'écran 
-          //
+          {isMobile?info.biomobile :info.bio} 
+         
         </p>
       </>
     );
