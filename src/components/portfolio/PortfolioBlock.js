@@ -6,13 +6,20 @@ function PortfolioBlock(props) {
   const { image,video, live, source, title } = props;
   return (
     <Box
-      display={"flex"}
-      flexDirection={"column"}
-      justifyContent={"center"}
-      alignItems={"center"}
-      mt={4}
-    >
-
+    display={"flex"}
+    flexDirection={"column"}
+    justifyContent={"center"}
+    alignItems={"center"}
+    mt={4}
+    // Pour centrer les vidéos sur mobile
+    sx={{
+      width: '100%',
+      '@media (max-width: 768px)': {
+        paddingLeft: '10px', // Petit ajustement gauche sur mobile
+        paddingRight: '10px' // Petit ajustement droite sur mobile
+      }
+    }}
+  >
 
 <div>
             {video ? (                                   //! si tu as une vidéo affiche la, sinon  affiche une photo
