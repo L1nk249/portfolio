@@ -22,7 +22,7 @@ function PortfolioBlock(props) {
   >
 
 <div>
-            {video ? (                                   //! si tu as une vidéo affiche la, sinon  affiche une photo
+            {video ? (                                   //! si tu as une vidéo affiche la, sinon  affiche une photo.
                 <Box component="div" style={{ width: "80%", height: "auto" }}>
                     <video 
                         controls 
