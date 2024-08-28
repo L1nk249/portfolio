@@ -111,8 +111,8 @@ Prêt à coder avec moi ?`
         },
         {
             title: "Projet 2 IZI site de sorties ",
-            live: "https://projet-fin-b-atch-front.vercel.app",
-            source:"",
+            live: "https://projet-findebatch-frontend.vercel.app/",
+            source:"https://github.com/L1nk249/projet-findebatch-frontend",
             video:Videoizi
         },
         {
