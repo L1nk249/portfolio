@@ -21,7 +21,9 @@ function TypingEffect({ text }) { //* destructuraiton de text qui est une props 
     style={{ 
         background: 'linear-gradient(to left, rgb(2, 26, 100), rgb(66, 152, 136))',
         WebkitBackgroundClip: 'text',
-        WebkitTextFillColor: 'transparent'
+        WebkitTextFillColor: 'transparent',
+        display: 'inline'
+
     }}
 >{displayedText}</span>;
 }
