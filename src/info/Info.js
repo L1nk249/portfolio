@@ -80,7 +80,7 @@ Prêt à coder avec moi ?`
         },
         {
             label: ' Cryptomonnaies',
-            emoji: '♢'
+            emoji: '₿'
         },
         {
             label: 'Cinéma',
