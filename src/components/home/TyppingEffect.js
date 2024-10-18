@@ -23,10 +23,9 @@ function TypingEffect({ text }) { //* destructuraiton de text qui est une props 
         WebkitBackgroundClip: 'text',
         WebkitTextFillColor: 'transparent',
         display: 'inline',
-        width: '100px', // Ajuster selon la longueur attendue
-        overflow: 'hidden', // Ne pas afficher le texte qui dépasse
-        whiteSpace: 'nowrap', // Ne pas passer à la ligne
-
+        minWidth: '100px', // Régler à une largeur minimale pour conserver l'espace
+        visibility: index < text.length ? 'visible' : 'hidden', // Masquer le texte jusqu'à ce qu'il soit complètement affiché
+        whiteSpace: 'nowrap', // Empêche le retour à la ligne
     }}
 >{displayedText}</span>;
 }
