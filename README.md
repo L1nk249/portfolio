@@ -1,4 +1,7 @@
 Personal Portfolio
+
+
+
 This is my first portfolio project built using React. It showcases my skills, projects as a Junior Full Stack Developer.
  The portfolio is designed to present my professional journey, technical expertise, and personal interests in an interactive and visually engaging way.
 
