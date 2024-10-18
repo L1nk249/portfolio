@@ -36,7 +36,7 @@ export default function Home({ innerRef }) {
       <Box>
       <h1>
     Bonjour, je m'appelle{' '}
-    <span style={{ display: 'inline-block', width: '100px', overflow: 'hidden' }}>
+    <span style={{ display: 'inline' }}>
         <TypingEffect text={info.firstName} />
     </span>{' '}
     <span className={Style.hand}>🤚</span>
