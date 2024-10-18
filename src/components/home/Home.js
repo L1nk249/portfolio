@@ -34,10 +34,13 @@ export default function Home({ innerRef }) {
         mr={{ xs: 0, md: "2rem" }}
       />
       <Box>
-        <h1>
-          Bonjour, je m'appelle <TypingEffect text={info.firstName} /> {' '} 
-          <span className={Style.hand}> 🤚 </span>
-        </h1>
+      <h1>
+  Bonjour, je m'appelle{' '}
+  <span style={{ whiteSpace: 'nowrap' }}>
+    <TypingEffect text={info.firstName} />
+  </span>{' '}
+  <span className={Style.hand}>🤚</span>
+</h1>
         <h2> {info.position}.</h2>
         <Box component={"ul"} p={"0.8rem"}>
           {info.miniBio.map((bio, index) => (

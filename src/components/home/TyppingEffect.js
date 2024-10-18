@@ -7,7 +7,7 @@ function TypingEffect({ text }) { //* destructuraiton de text qui est une props 
 
 
     useEffect(() => {
-        if (index < text.length) {     //! on  s'assure qu'index sit tjrs inferieur à la velaleur totale de text
+        if (index < text.length) {     //! on  s'assure qu'index sit tjrs inferieur à la valeur totale de text
             const timeoutId = setTimeout(() => {
                 setDisplayedText(displayedText + text[index]);
                 setIndex(index + 1);//! Après 230 ms, l'effet ajoute la lettre suivante à l'état displayedText et incrémente l'index (setIndex(index + 1)).

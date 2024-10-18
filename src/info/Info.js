@@ -79,8 +79,8 @@ Prêt à coder avec moi ?`
             emoji: '📖'
         },
         {
-            label: ' Cryptomonnaies',
-            emoji: '₿'
+            label: 'Cryptomonnaies',
+            emoji: '♢'
         },
         {
             label: 'Cinéma',
