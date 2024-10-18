@@ -35,7 +35,7 @@ export default function Home({ innerRef }) {
       />
       <Box>
         <h1>
-          Bonjour, je m'appelle <TypingEffect text={info.firstName} />
+          Bonjour, je m'appelle <TypingEffect text={info.firstName} /> {' '} 
           <span className={Style.hand}> 🤚 </span>
         </h1>
         <h2> {info.position}.</h2>
