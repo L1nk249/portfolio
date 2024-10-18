@@ -20,12 +20,14 @@ function TypingEffect({ text }) { //* destructuraiton de text qui est une props 
     return  <span 
     style={{ 
         background: 'linear-gradient(to left, rgb(2, 26, 100), rgb(66, 152, 136))',
+        width: '100px', // Fixed width to hide overflow
+        whiteSpace: 'nowrap', // Prevent line breaks
         WebkitBackgroundClip: 'text',
         WebkitTextFillColor: 'transparent',
-        display: 'inline',
-        minWidth: '100px', // Régler à une largeur minimale pour conserver l'espace
-        visibility: index < text.length ? 'visible' : 'hidden', // Masquer le texte jusqu'à ce qu'il soit complètement affiché
-        whiteSpace: 'nowrap', // Empêche le retour à la ligne
+        display: 'inline-block',
+        overflow: 'hidden', // Hide overflow
+        
+
     }}
 >{displayedText}</span>;
 }
