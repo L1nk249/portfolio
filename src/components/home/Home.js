@@ -34,7 +34,7 @@ export default function Home({ innerRef }) {
         mr={{ xs: 0, md: "2rem" }}
       />
       <Box>
-      <h1 style={{ lineHeight: '1.5' }}>
+      <h1 style={{ lineHeight: '2' }}>
 
     Bonjour, je m'appelle{' '}
     <span style={{ display: 'inline-block',verticalAlign: 'middle'  }}>
