@@ -78,10 +78,7 @@ Prêt à coder avec moi ?`
             label: 'Lecture',
             emoji: '📖'
         },
-        {
-            label: 'Cryptos',
-            emoji: '₿'
-        },
+        
         {
             label: 'Cinéma',
             emoji: '🕷️'
@@ -93,6 +90,10 @@ Prêt à coder avec moi ?`
         {
             label: 'Animaux',
             emoji: '🐕'
+        },
+        {
+            label: 'Cryptos',
+            emoji: '₿'
         },
         {
             label: "Pizza à l'ananas (personne n'est parfait !)" ,
