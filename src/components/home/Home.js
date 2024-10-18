@@ -34,8 +34,8 @@ export default function Home({ innerRef }) {
         mr={{ xs: 0, md: "2rem" }}
       />
       <Box>
-      <h1 style={{ lineHeight: '2' }}>
-
+    
+<h1>
     Bonjour, je m'appelle{' '}
     <span style={{ display: 'inline-block',verticalAlign: 'middle'  }}>
         <TypingEffect text={info.firstName} />
