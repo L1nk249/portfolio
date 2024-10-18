@@ -23,7 +23,7 @@ export const info = {
     miniBio: [ 
         {
             emoji: '🏃‍♂️',
-            text:  'Carburant: sport '
+            text:  'Carburant : Sport '
         },
         {
             emoji: '🌎',
@@ -69,8 +69,8 @@ Prêt à coder avec moi ?`
  ,
     skills:
         {
-            compétences: ['Javascript', 'React/React Native', 'Git/ Github', 'Html5', 'Css3', 'Figma'],
-            backend: ['Nodejs', 'Express', 'MongoDB','Mongoose']
+            compétences: ['Javascript', 'React/React Native', 'Git/ GitHub', 'HTML5', 'CSS3', 'Figma'],
+            backend: ['Node.js', 'Express', 'MongoDB','Mongoose']
         }
     ,
     hobbies: [
@@ -79,7 +79,7 @@ Prêt à coder avec moi ?`
             emoji: '📖'
         },
         {
-            label: 'Cryptomonnaies',
+            label:  'Cryptomonnaies',
             emoji: '₿'
         },
         {
