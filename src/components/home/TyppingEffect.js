@@ -20,7 +20,7 @@ function TypingEffect({ text }) { //* destructuraiton de text qui est une props 
     return  <span 
     style={{ 
         background: 'linear-gradient(to left, rgb(2, 26, 100), rgb(66, 152, 136))',
-        width: '100px', // Fixed width to hide overflow
+        width: '150px', // Fixed width to hide overflow
         whiteSpace: 'nowrap', // Prevent line breaks
         WebkitBackgroundClip: 'text',
         WebkitTextFillColor: 'transparent',
