@@ -22,7 +22,10 @@ function TypingEffect({ text }) { //* destructuraiton de text qui est une props 
         background: 'linear-gradient(to left, rgb(2, 26, 100), rgb(66, 152, 136))',
         WebkitBackgroundClip: 'text',
         WebkitTextFillColor: 'transparent',
-        display: 'inline'
+        display: 'inline',
+        width: '100px', // Ajuster selon la longueur attendue
+        overflow: 'hidden', // Ne pas afficher le texte qui dépasse
+        whiteSpace: 'nowrap', // Ne pas passer à la ligne
 
     }}
 >{displayedText}</span>;
